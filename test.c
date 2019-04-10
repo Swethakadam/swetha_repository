@@ -3,14 +3,13 @@
 
 int main()
 {
-    int num;
-    printf("enter the num\n");
-    scanf("%d",&num);
+    int num=12;
     if(num%2==0)
     {
-        printf("even number\n");
+       return 1;
     }
     else
-        printf("odd number\n");
+    {
     return 0;
     }
+}
